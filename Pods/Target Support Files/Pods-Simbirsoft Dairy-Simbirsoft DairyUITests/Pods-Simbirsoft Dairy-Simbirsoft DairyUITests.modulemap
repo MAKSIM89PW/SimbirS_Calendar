@@ -1,0 +1,6 @@
+framework module Pods_Simbirsoft_Dairy_Simbirsoft_DairyUITests {
+  umbrella header "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

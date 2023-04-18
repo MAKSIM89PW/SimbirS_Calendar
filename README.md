@@ -1,4 +1,4 @@
-# Simbirsoft_Calendar
+# Simbirsoft Calendar
 
 Дневник, в который вы можете добавлять задания и делиться ими с друзьями
 Тестовое задание от компании SimbirSoft

@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054DE114FDE6A77BBAC9EAAF6E3D32E5 /* Pods-Simbirsoft DairyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD6793D48F94A53C729C1F3694FF520 /* Pods-Simbirsoft DairyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD911A33A0FBD68CB16003A61A2658C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		29E68948A8E85ED60F9585E890070035 /* SwiftyOnboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 889E4AF17662EB192D7B6B0778CDCA10 /* SwiftyOnboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4103B1E988E319A06908304785CE72 /* SwiftyOnboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE0D3C3C8F195DDF2BCE6BBC436284 /* SwiftyOnboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		307DF65644E2EE6B6F851667C954C08B /* SwiftyOnboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A11FC666C5557CF739D1E2F2C1687 /* SwiftyOnboard.swift */; };
+		3BD936CE6FCE39B7063C27A633B51537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4A38550F748EDDB8D366B6E3C12CF77E /* Pods-Simbirsoft Dairy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC88AB45E4E8C298EFA22BDF55D67472 /* Pods-Simbirsoft Dairy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ED85F65CD8C48CBDA638A0CC4D856B0 /* Pods-Simbirsoft DairyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0043B7E45A741B6548D2F3E9612B523 /* Pods-Simbirsoft DairyTests-dummy.m */; };
+		706F09D5EBB27AF24F0ED1536673B229 /* SwiftyOnboardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B209E8FB3EF89CF347100FD7478DC5 /* SwiftyOnboardPage.swift */; };
+		7A158CAE76D9DFA6BEDD562985C7C106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		820F331B119DA1390950F453F7800805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8E7FFAA89436C6CDAC57E0473F06C20F /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE371633A305FEA9B5E81B5B34FAEAF4 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		978339D23107A90FC3CAD372302D5C71 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC6267D8A79F29B297EC74EFC029A9C /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-dummy.m */; };
+		D242D644A1592BD6F8424A6CF8DE984C /* SwiftyOnboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C78286EC74876D6CC818014C61BB9 /* SwiftyOnboard-dummy.m */; };
+		D315566B3E416F1E126EB772FECFD614 /* Pods-Simbirsoft Dairy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AAB86EF4DD2674FC7E5A37F45FDEEC /* Pods-Simbirsoft Dairy-dummy.m */; };
+		F4FEC2CB667533D0A9080DE9CFBF602A /* SwiftyOnboardOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C51A1AB22C7AB0D5BEDB055EF4456B6 /* SwiftyOnboardOverlay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC925B75398BC2BDDE0B800544C98B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD4316D4B8450B1266BBA976B43F462;
+			remoteInfo = "Pods-Simbirsoft Dairy";
+		};
+		C4CCBF50A9D37EA9190FAD1D8151CBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B738CAFC7004090B37ECAA9B942BE9D1;
+			remoteInfo = SwiftyOnboard;
+		};
+		C5487A965FC4CABF8046B464FBE3A601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B738CAFC7004090B37ECAA9B942BE9D1;
+			remoteInfo = SwiftyOnboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D61E922E97607C24B7DD60F156E929 /* Pods-Simbirsoft Dairy */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Simbirsoft Dairy"; path = Pods_Simbirsoft_Dairy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5038CFD83FF846CECF08D93F64BB31 /* Pods-Simbirsoft DairyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simbirsoft DairyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D617795A935B4F54AF865A5853BBBF4 /* Pods-Simbirsoft DairyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simbirsoft DairyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		353A11FC666C5557CF739D1E2F2C1687 /* SwiftyOnboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyOnboard.swift; path = SwiftyOnboard/SwiftyOnboard.swift; sourceTree = "<group>"; };
+		39AAB86EF4DD2674FC7E5A37F45FDEEC /* Pods-Simbirsoft Dairy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simbirsoft Dairy-dummy.m"; sourceTree = "<group>"; };
+		3BB5E4A1A0A6ECC37A5ABCDC1BEC03DE /* Pods-Simbirsoft Dairy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simbirsoft Dairy.release.xcconfig"; sourceTree = "<group>"; };
+		3CC6267D8A79F29B297EC74EFC029A9C /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-dummy.m"; sourceTree = "<group>"; };
+		43B209E8FB3EF89CF347100FD7478DC5 /* SwiftyOnboardPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyOnboardPage.swift; path = SwiftyOnboard/SwiftyOnboardPage.swift; sourceTree = "<group>"; };
+		4AD3709382688D11546A80085197E204 /* SwiftyOnboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyOnboard.debug.xcconfig; sourceTree = "<group>"; };
+		5049DA9F4009A8B5C42FC33E21D130C6 /* Pods-Simbirsoft Dairy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simbirsoft Dairy.modulemap"; sourceTree = "<group>"; };
+		59DE26E82EE012F04EE0069063F59A10 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		681CDE7AAEF6B04F39C59B86ADB65CA3 /* Pods-Simbirsoft Dairy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simbirsoft Dairy-Info.plist"; sourceTree = "<group>"; };
+		7189ABB48E860E9210057BC09D259A7B /* Pods-Simbirsoft Dairy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simbirsoft Dairy.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		842481D86000119C4632B6F0CA681EFE /* SwiftyOnboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyOnboard.modulemap; sourceTree = "<group>"; };
+		889E4AF17662EB192D7B6B0778CDCA10 /* SwiftyOnboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyOnboard.h; path = SwiftyOnboard/SwiftyOnboard.h; sourceTree = "<group>"; };
+		88F41F62169BC3C7D50B6F1760CB336A /* SwiftyOnboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyOnboard.release.xcconfig; sourceTree = "<group>"; };
+		8C081652E028442970F7CC27DBA82801 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests"; path = Pods_Simbirsoft_Dairy_Simbirsoft_DairyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C53687220AE75F11370999E63B0ABEF /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96E1F1D2E443D6A30998A5301E894238 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98A984B4FC863D09E6E09E684731B96F /* Pods-Simbirsoft Dairy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simbirsoft Dairy-frameworks.sh"; sourceTree = "<group>"; };
+		9C51A1AB22C7AB0D5BEDB055EF4456B6 /* SwiftyOnboardOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyOnboardOverlay.swift; path = SwiftyOnboard/SwiftyOnboardOverlay.swift; sourceTree = "<group>"; };
+		9CA17C2F2C5A8CD1997DAAD79F4D4B27 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A23C78286EC74876D6CC818014C61BB9 /* SwiftyOnboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyOnboard-dummy.m"; sourceTree = "<group>"; };
+		A8DCE0ECB138BE7A422B091F0AF4F8D9 /* Pods-Simbirsoft DairyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simbirsoft DairyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC88AB45E4E8C298EFA22BDF55D67472 /* Pods-Simbirsoft Dairy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simbirsoft Dairy-umbrella.h"; sourceTree = "<group>"; };
+		C0043B7E45A741B6548D2F3E9612B523 /* Pods-Simbirsoft DairyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simbirsoft DairyTests-dummy.m"; sourceTree = "<group>"; };
+		C8DD06FD50E0D12382E8AF49F5DEDB8C /* Pods-Simbirsoft Dairy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simbirsoft Dairy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDD6793D48F94A53C729C1F3694FF520 /* Pods-Simbirsoft DairyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simbirsoft DairyTests-umbrella.h"; sourceTree = "<group>"; };
+		CEE9C7A482E76C460F59AFCDC3A57C45 /* SwiftyOnboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyOnboard-prefix.pch"; sourceTree = "<group>"; };
+		D52E2A45E456303A47F95C020DCFF077 /* SwiftyOnboard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyOnboard; path = SwiftyOnboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD16B37825DDDCFC8A7FE41D7F05BD65 /* Pods-Simbirsoft DairyTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Simbirsoft DairyTests"; path = Pods_Simbirsoft_DairyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE968A43E76EC6F529EACAACD6A72F61 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E10CD5AAE4B645CB095640D67EC6E52A /* SwiftyOnboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyOnboard-Info.plist"; sourceTree = "<group>"; };
+		E1FCE3F588200725E34A63DF6DF020C4 /* Pods-Simbirsoft DairyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simbirsoft DairyTests.modulemap"; sourceTree = "<group>"; };
+		EA092B8BDBDE2CEA5714A6DC7A37982A /* Pods-Simbirsoft Dairy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simbirsoft Dairy-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAE8EF3D4795B83B83FA56CFC752A2D2 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-Info.plist"; sourceTree = "<group>"; };
+		ECBE0D3C3C8F195DDF2BCE6BBC436284 /* SwiftyOnboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyOnboard-umbrella.h"; sourceTree = "<group>"; };
+		F156B282BFDAAF4E68424E7E89F568EF /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F25921620C6A5B5F86906D785F1EEE38 /* Pods-Simbirsoft DairyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simbirsoft DairyTests-Info.plist"; sourceTree = "<group>"; };
+		FC309EFCBD22935920AEE0EFC2F4254C /* Pods-Simbirsoft DairyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simbirsoft DairyTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE371633A305FEA9B5E81B5B34FAEAF4 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FDB6EF592FDE315EFA4F81E5E33AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD911A33A0FBD68CB16003A61A2658C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C4C8E3075B30D59A36D5907BCE247F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820F331B119DA1390950F453F7800805 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF6B973355D4D139CE90BA2909C93DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD936CE6FCE39B7063C27A633B51537 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6829D9816BECF72210FCC5FCC15B1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A158CAE76D9DFA6BEDD562985C7C106 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DFE5D6C83333F12B5E64DF2F14B255 /* Pods-Simbirsoft DairyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FCE3F588200725E34A63DF6DF020C4 /* Pods-Simbirsoft DairyTests.modulemap */,
+				2D617795A935B4F54AF865A5853BBBF4 /* Pods-Simbirsoft DairyTests-acknowledgements.markdown */,
+				1E5038CFD83FF846CECF08D93F64BB31 /* Pods-Simbirsoft DairyTests-acknowledgements.plist */,
+				C0043B7E45A741B6548D2F3E9612B523 /* Pods-Simbirsoft DairyTests-dummy.m */,
+				F25921620C6A5B5F86906D785F1EEE38 /* Pods-Simbirsoft DairyTests-Info.plist */,
+				CDD6793D48F94A53C729C1F3694FF520 /* Pods-Simbirsoft DairyTests-umbrella.h */,
+				A8DCE0ECB138BE7A422B091F0AF4F8D9 /* Pods-Simbirsoft DairyTests.debug.xcconfig */,
+				FC309EFCBD22935920AEE0EFC2F4254C /* Pods-Simbirsoft DairyTests.release.xcconfig */,
+			);
+			name = "Pods-Simbirsoft DairyTests";
+			path = "Target Support Files/Pods-Simbirsoft DairyTests";
+			sourceTree = "<group>";
+		};
+		28B4A0B50EA3EBA6AA5139274E26720E /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA17C2F2C5A8CD1997DAAD79F4D4B27 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.modulemap */,
+				8C53687220AE75F11370999E63B0ABEF /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-acknowledgements.markdown */,
+				F156B282BFDAAF4E68424E7E89F568EF /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-acknowledgements.plist */,
+				3CC6267D8A79F29B297EC74EFC029A9C /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-dummy.m */,
+				DE968A43E76EC6F529EACAACD6A72F61 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-frameworks.sh */,
+				EAE8EF3D4795B83B83FA56CFC752A2D2 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-Info.plist */,
+				FE371633A305FEA9B5E81B5B34FAEAF4 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-umbrella.h */,
+				59DE26E82EE012F04EE0069063F59A10 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.debug.xcconfig */,
+				96E1F1D2E443D6A30998A5301E894238 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.release.xcconfig */,
+			);
+			name = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests";
+			path = "Target Support Files/Pods-Simbirsoft Dairy-Simbirsoft DairyUITests";
+			sourceTree = "<group>";
+		};
+		2F54BF9D5DC8BF557C5AA2E4BED1A54A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B72C24D3979275A004ADB58B40EE89D /* Pods-Simbirsoft Dairy */,
+				28B4A0B50EA3EBA6AA5139274E26720E /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests */,
+				06DFE5D6C83333F12B5E64DF2F14B255 /* Pods-Simbirsoft DairyTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55B0061D04F0A383F8B4CB787AAA24E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAD95EA123A3A3F250113C00E3F48F3F /* SwiftyOnboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B72C24D3979275A004ADB58B40EE89D /* Pods-Simbirsoft Dairy */ = {
+			isa = PBXGroup;
+			children = (
+				5049DA9F4009A8B5C42FC33E21D130C6 /* Pods-Simbirsoft Dairy.modulemap */,
+				C8DD06FD50E0D12382E8AF49F5DEDB8C /* Pods-Simbirsoft Dairy-acknowledgements.markdown */,
+				EA092B8BDBDE2CEA5714A6DC7A37982A /* Pods-Simbirsoft Dairy-acknowledgements.plist */,
+				39AAB86EF4DD2674FC7E5A37F45FDEEC /* Pods-Simbirsoft Dairy-dummy.m */,
+				98A984B4FC863D09E6E09E684731B96F /* Pods-Simbirsoft Dairy-frameworks.sh */,
+				681CDE7AAEF6B04F39C59B86ADB65CA3 /* Pods-Simbirsoft Dairy-Info.plist */,
+				AC88AB45E4E8C298EFA22BDF55D67472 /* Pods-Simbirsoft Dairy-umbrella.h */,
+				7189ABB48E860E9210057BC09D259A7B /* Pods-Simbirsoft Dairy.debug.xcconfig */,
+				3BB5E4A1A0A6ECC37A5ABCDC1BEC03DE /* Pods-Simbirsoft Dairy.release.xcconfig */,
+			);
+			name = "Pods-Simbirsoft Dairy";
+			path = "Target Support Files/Pods-Simbirsoft Dairy";
+			sourceTree = "<group>";
+		};
+		BAD95EA123A3A3F250113C00E3F48F3F /* SwiftyOnboard */ = {
+			isa = PBXGroup;
+			children = (
+				889E4AF17662EB192D7B6B0778CDCA10 /* SwiftyOnboard.h */,
+				353A11FC666C5557CF739D1E2F2C1687 /* SwiftyOnboard.swift */,
+				9C51A1AB22C7AB0D5BEDB055EF4456B6 /* SwiftyOnboardOverlay.swift */,
+				43B209E8FB3EF89CF347100FD7478DC5 /* SwiftyOnboardPage.swift */,
+				F1201EB1962E60909A1A94696824D211 /* Support Files */,
+			);
+			name = SwiftyOnboard;
+			path = SwiftyOnboard;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				55B0061D04F0A383F8B4CB787AAA24E4 /* Pods */,
+				EB470377112C40BC4497BD5C85CBBC99 /* Products */,
+				2F54BF9D5DC8BF557C5AA2E4BED1A54A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB470377112C40BC4497BD5C85CBBC99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D61E922E97607C24B7DD60F156E929 /* Pods-Simbirsoft Dairy */,
+				8C081652E028442970F7CC27DBA82801 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests */,
+				DD16B37825DDDCFC8A7FE41D7F05BD65 /* Pods-Simbirsoft DairyTests */,
+				D52E2A45E456303A47F95C020DCFF077 /* SwiftyOnboard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1201EB1962E60909A1A94696824D211 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				842481D86000119C4632B6F0CA681EFE /* SwiftyOnboard.modulemap */,
+				A23C78286EC74876D6CC818014C61BB9 /* SwiftyOnboard-dummy.m */,
+				E10CD5AAE4B645CB095640D67EC6E52A /* SwiftyOnboard-Info.plist */,
+				CEE9C7A482E76C460F59AFCDC3A57C45 /* SwiftyOnboard-prefix.pch */,
+				ECBE0D3C3C8F195DDF2BCE6BBC436284 /* SwiftyOnboard-umbrella.h */,
+				4AD3709382688D11546A80085197E204 /* SwiftyOnboard.debug.xcconfig */,
+				88F41F62169BC3C7D50B6F1760CB336A /* SwiftyOnboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyOnboard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		058E5F62A3442FA859D4A66F9889846E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7FFAA89436C6CDAC57E0473F06C20F /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C60649403D35075053B42E432F3E023 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E68948A8E85ED60F9585E890070035 /* SwiftyOnboard.h in Headers */,
+				2C4103B1E988E319A06908304785CE72 /* SwiftyOnboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF36A23B2763C4DA0BC4B128451A7B9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054DE114FDE6A77BBAC9EAAF6E3D32E5 /* Pods-Simbirsoft DairyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4482B5C26D71DBD6DA5CC1F4A16567E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A38550F748EDDB8D366B6E3C12CF77E /* Pods-Simbirsoft Dairy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		094A85CBF7AB8DA9F7F710AD34D71A14 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA17B5192E6128DD81C67903B07E4A2E /* Build configuration list for PBXNativeTarget "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests" */;
+			buildPhases = (
+				058E5F62A3442FA859D4A66F9889846E /* Headers */,
+				407F4C58C72AC4F2F53C9E9C3E42FB6E /* Sources */,
+				7CF6B973355D4D139CE90BA2909C93DE /* Frameworks */,
+				1D90272DACD5806B9E742E9D6A516B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB1D0D2B1BE34F81AFB6F01FBC79F08 /* PBXTargetDependency */,
+			);
+			name = "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests";
+			productName = Pods_Simbirsoft_Dairy_Simbirsoft_DairyUITests;
+			productReference = 8C081652E028442970F7CC27DBA82801 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		34A4810B526FE146316E2891B197E199 /* Pods-Simbirsoft DairyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44350250CF5DA1FE8770A0E598696FA /* Build configuration list for PBXNativeTarget "Pods-Simbirsoft DairyTests" */;
+			buildPhases = (
+				AF36A23B2763C4DA0BC4B128451A7B9D /* Headers */,
+				C7670317A9AA47B50D213BAEAE79F1AF /* Sources */,
+				45C4C8E3075B30D59A36D5907BCE247F /* Frameworks */,
+				5F5E3520FF143C07BFCA330963EC188D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD921014749599DFA25912FBA3C8019 /* PBXTargetDependency */,
+			);
+			name = "Pods-Simbirsoft DairyTests";
+			productName = Pods_Simbirsoft_DairyTests;
+			productReference = DD16B37825DDDCFC8A7FE41D7F05BD65 /* Pods-Simbirsoft DairyTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AD4316D4B8450B1266BBA976B43F462 /* Pods-Simbirsoft Dairy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E40B9554767CD0F2374501DC168E4A3 /* Build configuration list for PBXNativeTarget "Pods-Simbirsoft Dairy" */;
+			buildPhases = (
+				E4482B5C26D71DBD6DA5CC1F4A16567E /* Headers */,
+				D4042D2021659D27A7219F5B3F329424 /* Sources */,
+				E6829D9816BECF72210FCC5FCC15B1F0 /* Frameworks */,
+				03E4528E305711763DE8FDE4FD3C20F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D820852FAE2629BC2AEA45162CA58A48 /* PBXTargetDependency */,
+			);
+			name = "Pods-Simbirsoft Dairy";
+			productName = Pods_Simbirsoft_Dairy;
+			productReference = 07D61E922E97607C24B7DD60F156E929 /* Pods-Simbirsoft Dairy */;
+			productType = "com.apple.product-type.framework";
+		};
+		B738CAFC7004090B37ECAA9B942BE9D1 /* SwiftyOnboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FE5461FD2394ED6715847F259EB576 /* Build configuration list for PBXNativeTarget "SwiftyOnboard" */;
+			buildPhases = (
+				1C60649403D35075053B42E432F3E023 /* Headers */,
+				46810C924BC2B0AA81BEC4CEB00B37F5 /* Sources */,
+				42FDB6EF592FDE315EFA4F81E5E33AFA /* Frameworks */,
+				C62D77434E58A2D9770321C243F4B9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyOnboard;
+			productName = SwiftyOnboard;
+			productReference = D52E2A45E456303A47F95C020DCFF077 /* SwiftyOnboard */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EB470377112C40BC4497BD5C85CBBC99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AD4316D4B8450B1266BBA976B43F462 /* Pods-Simbirsoft Dairy */,
+				094A85CBF7AB8DA9F7F710AD34D71A14 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests */,
+				34A4810B526FE146316E2891B197E199 /* Pods-Simbirsoft DairyTests */,
+				B738CAFC7004090B37ECAA9B942BE9D1 /* SwiftyOnboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E4528E305711763DE8FDE4FD3C20F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D90272DACD5806B9E742E9D6A516B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5E3520FF143C07BFCA330963EC188D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62D77434E58A2D9770321C243F4B9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		407F4C58C72AC4F2F53C9E9C3E42FB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978339D23107A90FC3CAD372302D5C71 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46810C924BC2B0AA81BEC4CEB00B37F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307DF65644E2EE6B6F851667C954C08B /* SwiftyOnboard.swift in Sources */,
+				D242D644A1592BD6F8424A6CF8DE984C /* SwiftyOnboard-dummy.m in Sources */,
+				F4FEC2CB667533D0A9080DE9CFBF602A /* SwiftyOnboardOverlay.swift in Sources */,
+				706F09D5EBB27AF24F0ED1536673B229 /* SwiftyOnboardPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7670317A9AA47B50D213BAEAE79F1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED85F65CD8C48CBDA638A0CC4D856B0 /* Pods-Simbirsoft DairyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4042D2021659D27A7219F5B3F329424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D315566B3E416F1E126EB772FECFD614 /* Pods-Simbirsoft Dairy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB1D0D2B1BE34F81AFB6F01FBC79F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyOnboard;
+			target = B738CAFC7004090B37ECAA9B942BE9D1 /* SwiftyOnboard */;
+			targetProxy = C5487A965FC4CABF8046B464FBE3A601 /* PBXContainerItemProxy */;
+		};
+		D820852FAE2629BC2AEA45162CA58A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyOnboard;
+			target = B738CAFC7004090B37ECAA9B942BE9D1 /* SwiftyOnboard */;
+			targetProxy = C4CCBF50A9D37EA9190FAD1D8151CBD9 /* PBXContainerItemProxy */;
+		};
+		FBD921014749599DFA25912FBA3C8019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Simbirsoft Dairy";
+			target = 4AD4316D4B8450B1266BBA976B43F462 /* Pods-Simbirsoft Dairy */;
+			targetProxy = ABC925B75398BC2BDDE0B800544C98B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29182F06FCA0871786EE35E5D3FC76CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7189ABB48E860E9210057BC09D259A7B /* Pods-Simbirsoft Dairy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simbirsoft Dairy/Pods-Simbirsoft Dairy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simbirsoft Dairy/Pods-Simbirsoft Dairy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31D533FA5E2E55D8AC26DF07F12CB750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F41F62169BC3C7D50B6F1760CB336A /* SwiftyOnboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyOnboard/SwiftyOnboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyOnboard/SwiftyOnboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyOnboard/SwiftyOnboard.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyOnboard;
+				PRODUCT_NAME = SwiftyOnboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		370AA8CE1A6C771B85393EF95F4AD91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC309EFCBD22935920AEE0EFC2F4254C /* Pods-Simbirsoft DairyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simbirsoft DairyTests/Pods-Simbirsoft DairyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simbirsoft DairyTests/Pods-Simbirsoft DairyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A67862F45CE85BDC4260CDF08A18CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB5E4A1A0A6ECC37A5ABCDC1BEC03DE /* Pods-Simbirsoft Dairy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simbirsoft Dairy/Pods-Simbirsoft Dairy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simbirsoft Dairy/Pods-Simbirsoft Dairy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B0F4A46FB65ABF7BE346375EB303BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DE26E82EE012F04EE0069063F59A10 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simbirsoft Dairy-Simbirsoft DairyUITests/Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simbirsoft Dairy-Simbirsoft DairyUITests/Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E79916DE06FCC3B9511D0C75C5205BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DCE0ECB138BE7A422B091F0AF4F8D9 /* Pods-Simbirsoft DairyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simbirsoft DairyTests/Pods-Simbirsoft DairyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simbirsoft DairyTests/Pods-Simbirsoft DairyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4E0801A1E8E273B9191F75807B31471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E1F1D2E443D6A30998A5301E894238 /* Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simbirsoft Dairy-Simbirsoft DairyUITests/Pods-Simbirsoft Dairy-Simbirsoft DairyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simbirsoft Dairy-Simbirsoft DairyUITests/Pods-Simbirsoft Dairy-Simbirsoft DairyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5E24BC23324A7B93474C3260E966D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD3709382688D11546A80085197E204 /* SwiftyOnboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyOnboard/SwiftyOnboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyOnboard/SwiftyOnboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyOnboard/SwiftyOnboard.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyOnboard;
+				PRODUCT_NAME = SwiftyOnboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E40B9554767CD0F2374501DC168E4A3 /* Build configuration list for PBXNativeTarget "Pods-Simbirsoft Dairy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29182F06FCA0871786EE35E5D3FC76CB /* Debug */,
+				4A67862F45CE85BDC4260CDF08A18CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FE5461FD2394ED6715847F259EB576 /* Build configuration list for PBXNativeTarget "SwiftyOnboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E24BC23324A7B93474C3260E966D02 /* Debug */,
+				31D533FA5E2E55D8AC26DF07F12CB750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44350250CF5DA1FE8770A0E598696FA /* Build configuration list for PBXNativeTarget "Pods-Simbirsoft DairyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E79916DE06FCC3B9511D0C75C5205BA /* Debug */,
+				370AA8CE1A6C771B85393EF95F4AD91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA17B5192E6128DD81C67903B07E4A2E /* Build configuration list for PBXNativeTarget "Pods-Simbirsoft Dairy-Simbirsoft DairyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0F4A46FB65ABF7BE346375EB303BCD /* Debug */,
+				A4E0801A1E8E273B9191F75807B31471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
