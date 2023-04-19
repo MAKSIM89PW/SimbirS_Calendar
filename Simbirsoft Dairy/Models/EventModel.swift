@@ -1,7 +1,7 @@
 import UIKit
 import CalendarKit
 
-// Modified Event class (CalendarKit). Added: description, id
+// Изменен класс событий (CalendarKit). Добавлено: описание, идентификатор
 final class EventModel: EventDescriptor {
     
     public var dateInterval = DateInterval()

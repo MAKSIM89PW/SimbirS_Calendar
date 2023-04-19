@@ -7,7 +7,7 @@ class DataManager {
     
     private init() { }
     
-    // JSON task files type
+    // Тип файлов задач в формате JSON
     private var tasks: [TaskModel] {
         get {
             guard let data = try? Data(contentsOf: .tasks) else { return [] }
@@ -18,7 +18,7 @@ class DataManager {
         }
     }
     
-    // CalendarKit event type
+    // CalendarKit эвенты
     var events: [EventModel] {
         get {
             adapter.getEvents(from: tasks)
